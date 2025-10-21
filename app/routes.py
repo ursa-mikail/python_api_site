@@ -4,14 +4,18 @@ from flasgger import Swagger
 import os
 
 from .encryption import DataEncryptor
-from .site_manager import SiteManager
+# REMOVE: from .site_manager import SiteManager
+# ADD:
+from .airtable_manager import AirtableManager
 
 app = Flask(__name__)
 api = Api(app)
 swagger = Swagger(app)
 
 encryptor = DataEncryptor()
-site_manager = SiteManager()
+# REPLACE: site_manager = SiteManager()
+# WITH:
+airtable_manager = AirtableManager()
 
 class EncryptData(Resource):
     def post(self):

@@ -305,3 +305,13 @@ For data_type, set options: config, content, secrets, user_data
 ```
 https://dashboard.render.com/
 ```
+
+```
+1. Fix Render Start Command
+In Render dashboard → Web Service → Settings: https://dashboard.render.com/web/srv-d3rgj0er433s73e4koog/settings
+
+Change Start Command from gunicorn app:app to:
+
+text
+gunicorn app.routes:app
+```
