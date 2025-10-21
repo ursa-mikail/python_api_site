@@ -248,3 +248,23 @@ curl "http://localhost:5000/site-data/site_config"
 curl "http://localhost:5000/site-data/api_keys"
 ```
 
+
+# AIRTABLE_KEY
+
+```
+https://airtable.com/create/tokens/new
+
+data.records:read
+See the data in records
+
+data.records:write
+Create, edit, and delete records
+
+add base:
+
+My First Workspace
+Encrypted Site Data
+
+```
+
+
