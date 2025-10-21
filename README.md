@@ -266,5 +266,42 @@ My First Workspace
 Encrypted Site Data
 
 ```
+```
+Click "Add a base" → "Start from scratch"
+
+Name it: Encrypted Site Data
+
+Click "Create base"
+
+2. Set up Your Table Structure
+You need ONE table. Here's how to create it:
+
+In your Airtable base:
+
+Table name: site_data (rename the default "Table 1")
+
+Add these fields:
+
+Field Name  Field Type  Description
+key   Single line text  Unique identifier for each data entry
+encrypted_value   Long text   The encrypted data (this will store your ciphered data)
+data_type   Single select  Type: config, content, secrets, user_data
+created_time   Created time   (Auto-generated - don't need to create)
+last_modified  Last modified time   (Auto-generated - don't need to create)
+To add fields:
+
+Click "+" next to existing fields
+
+Choose field type
+
+Name the field
+
+For data_type, set options: config, content, secrets, user_data
+```
 
 
+# RENDER
+
+```
+https://dashboard.render.com/
+```
