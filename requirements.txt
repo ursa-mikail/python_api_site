@@ -4,3 +4,5 @@ flasgger
 cryptography
 python-dotenv
 gunicorn
+
+pyairtable
