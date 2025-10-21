@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+site/data/*.enc
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+test_*.json
+test_*.enc

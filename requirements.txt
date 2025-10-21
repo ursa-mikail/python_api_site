@@ -1,0 +1,6 @@
+flask
+flask-restful
+flasgger
+cryptography
+python-dotenv
+gunicorn

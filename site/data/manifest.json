@@ -1,0 +1,9 @@
+{
+  "encrypted_files": [
+    "site_config.json.enc",
+    "content_data.json.enc",
+    "secrets.json.enc"
+  ],
+  "encryption_method": "AES-GCM",
+  "key_derivation": "PBKDF2-HMAC-SHA256"
+}
