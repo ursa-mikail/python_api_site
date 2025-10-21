@@ -191,7 +191,6 @@ curl "http://localhost:5000/site-data"
 
 Add Data and List
 1. Add Multiple Site Data Entries
-
 ```
 # Add homepage content
 curl -X POST "http://localhost:5000/site-data" \
@@ -319,3 +318,12 @@ gunicorn app.routes:app
 ```
    modified:   app/routes.py
 ```   
+
+```
+http://localhost:5000/apidocs
+https://python-api-site.onrender.com/apidocs/
+
+
+curl "https://python-api-site.onrender.com/site-data"
+curl "http://localhost:5000/site-data"
+```
